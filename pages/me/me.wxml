@@ -1,0 +1,7 @@
+<!--pages/me/me.wxml-->
+<view class="center">listen to 帅帅的音乐</view>
+<audio class= "top" poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+<button  class="top" type="primary" bindtap="audioPlay">播放</button>
+<button  class="top" type="primary" bindtap="audioPause">暂停</button>
+<button  class="top" type="primary" bindtap="audio14">设置当前播放时间为14秒</button>
+<button  class="top" type="primary" bindtap="audioStart">回到开头</button>

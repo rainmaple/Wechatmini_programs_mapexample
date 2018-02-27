@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/headline/headline",
+    "pages/headline/face_recognize/face_recognize",
+    "pages/message/message",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#494949",
+    "navigationBarTitleText": "帅帅的地图应用",
+    "navigationBarTextStyle": "#ffffff"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#999999",
+    "selectedColor": "#CC1004",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/headline/headline",
+        "text": "定位",
+        "iconPath": "pages/images/tab/location_0.png",
+        "selectedIconPath": "pages/images/tab/location_1.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "pages/images/tab/message-0.jpg",
+        "selectedIconPath": "pages/images/tab/message-1.jpg"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "pages/images/tab/me-0.jpg",
+        "selectedIconPath": "pages/images/tab/me-1.jpg"
+      }
+    ]
+  }
+}
